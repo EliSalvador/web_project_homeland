@@ -1,15 +1,15 @@
-.proceed {
+.content {
   margin-top: 92px;
   margin-left: 148px;
   margin-bottom: 92px;
   color: #ffffff;
 }
 
-.proceed__content {
+.content__proceed {
   display: flex;
   flex-direction: column;
 }
-.proceed__title {
+.content__title {
   width: 100%;
   max-width: 830px;
   font-size: 54px;
@@ -18,7 +18,7 @@
   margin: 0;
   color: #ffffff;
 }
-.proceed__quote {
+.content__quote {
   margin: 40px 0 0;
   width: 100%;
   max-width: 738px;
@@ -29,7 +29,7 @@
   color: #ffffff;
 }
 
-.proceed__quote-cite {
+.content__quote-cite {
   margin-top: 10px;
   width: 100%;
   max-width: 732px;
@@ -41,7 +41,7 @@
   color: #ffffff;
 }
 
-.proceed__text {
+.content__text {
   margin: 32px 0 0;
   max-width: 722px;
   font-size: 16px;
