@@ -1,0 +1,13 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/font.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/cover.css);
+@import url(../blocks/proceed.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/mediaqueries.css);
+
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+}

@@ -1,0 +1,13 @@
+.header {
+  padding-top: 34px;
+}
+
+.header__logo {
+  margin: auto;
+  width: 100%;
+  max-width: 255px;
+}
+.header__logo-image {
+}
+.header__logo-letter {
+}
