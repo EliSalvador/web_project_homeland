@@ -1,11 +1,11 @@
 .content {
-  margin-top: 92px;
-  margin-left: 148px;
-  margin-bottom: 92px;
   color: #ffffff;
 }
 
 .content__proceed {
+  margin-top: 92px;
+  margin-left: 148px;
+
   display: flex;
   flex-direction: column;
 }
