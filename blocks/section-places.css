@@ -70,7 +70,11 @@
   margin-top: 25px;
 }
 
-.section-places__button {
+.section-placesbutton {
+  text-align: center;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
   display: block;
   width: 100%;
   max-width: 289px;
@@ -83,17 +87,22 @@
   font-weight: 600;
   line-height: 21.78px;
   text-align: left;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
 }
-.section-places__button:hover {
+.section-placesbutton:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
   box-shadow: 5px 5px 10px 0px #00000040;
+}
+
+.section-places-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
 }
 
 @media screen and (max-width: 930px) {
@@ -142,15 +151,26 @@
     line-height: 35px;
     margin: 0 16px;
   }
+  .section-places__artist {
+    margin-left: 18px;
+  }
   .section-places__title-artist {
     display: flex;
     align-items: center;
   }
-
+  .section-places__text {
+    margin-left: 18px;
+  }
   .section-placesbutton {
     height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .section-placesbutton {
+    margin: auto;
   }
 }
